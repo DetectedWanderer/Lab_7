@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
     // ==========================================
-    // PHASE 2: Read the menu from "menu.txt"
+    // PHASE 2: Read the menu from "lol.txt"
     // ==========================================
     ifstream fin;
     fin.open("lol.txt");
@@ -122,7 +122,7 @@ int main() {
     int food1End = food1Start - food1Sold;
     int food2End = food2Start - food2Sold;
 
-    // Open daily log file in append mode (`ios::app`) to save records safely[cite: 2, 4]
+    // Open daily log file in append mode (`ios::app`) to save records safely
     ofstream daily_log_fout;
     daily_log_fout.open("daily_log.txt", ios::app);
     

@@ -1,0 +1,5 @@
+Daily Inventory
+Item | Start | Change | End
+Bacon Cheeseburger | 50 | -50 | 0
+Loaded Cheesy Fries | 50 | -30 | 20
+----------------------------------------

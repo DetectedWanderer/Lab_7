@@ -9,11 +9,11 @@ int main() {
     // PHASE 2: Read the menu from "menu.txt"
     // ==========================================
     ifstream fin;
-    fin.open("menu.txt");
+    fin.open("lol.txt");
     
     // Check if the menu file opened successfully
     if (!fin) {
-        cout << "Error: Could not open menu file! Make sure menu.txt is in your project directory." << endl;
+        cout << "Error: Could not open menu file! Make sure lol.txt is in your project directory." << endl;
         return 1;
     }
 
